@@ -1,6 +1,6 @@
-# Video SDK Android Quickstart 
+# Video SDK Android - ConnectionService API Integration
 
-This is a Sample App of the Android Zoom Video SDK built with Kotlin.  
+This is a Sample App of the Android Zoom Video SDK built with Kotlin. This app showcases an example of using the Connection Service API to join and start Zoom sessions using Androids Native Call UI.
 
 Use of this Sample App is subject to our [Terms of Use](https://www.zoom.com/en/trust/terms/).
 
