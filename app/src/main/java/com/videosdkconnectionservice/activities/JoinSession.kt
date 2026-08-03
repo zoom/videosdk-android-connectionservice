@@ -146,7 +146,6 @@ class JoinSession : AppCompatActivity() {
                             .awaitResponse()
                     if (response.isSuccessful) {
                         val jwt = Gson().fromJson(response.body(), Signature::class.java)
-                        pp("jwt from server: ${jwt.signature}")
                         val config = Config(sessionName, username, password, jwt.signature)
                         zoomSessionViewModel.initZoomSDK(config)
                     } else {

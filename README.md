@@ -28,10 +28,10 @@ Use of this Sample App is subject to our [Terms of Use](https://www.zoom.com/en/
 
 Clone this repo into your local environment:
 ```
-$ git clone https://github.com/Ticorrian-Heard/android-videosdk-connectionservice-sample.git 
+$ git clone https://github.com/zoom/videosdk-android-connectionservice.git 
 ```
 
-Once cloned, navigate to the 'videosdk-android-quickstart' directory
+Once cloned, navigate to the 'videosdk-connectionservice' directory
 
 You can use the `studio .` command to open it in Android Studio.
 

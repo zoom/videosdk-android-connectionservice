@@ -54,7 +54,7 @@ class ZoomSessionViewModel(application: Application): AndroidViewModel(applicati
     fun initZoomSDK (config: Config) {
         if (!sdkInitialized) {
             val initParams = ZoomVideoSDKInitParams().apply {
-                domain = "https://zoom.us"
+                domain = "https://zoom.us" //or "https://www.zoomgov.com" for ZoomGov accounts
             }
             val sdk = ZoomVideoSDK.getInstance()
             val initResult = sdk.initialize(context, initParams)
